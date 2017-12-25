@@ -1,29 +1,27 @@
-# React Parcel Example
+# Reason React Parcel Example
 
-A minimum viable React app with [Parcel Bundler](https://parceljs.org)
+A minimum viable Reason React app with [Parcel Bundler](https://parceljs.org)
 
 **What's inside?**
 
 * `parcel-bundler`
 * `react`
 * `react-dom`
-* `babel-preset-react-app`
+* `reason-react`
 * `autoprefixer`
-
-> Also [checkout out the TypeScript branch](https://github.com/jaredpalmer/react-parcel-example/tree/typescript)
 
 ## Getting started
 
 Clone and install deps
 
 ```
-git clone git@github.com:jaredpalmer/react-parcel-example.git
-cd react-parcel-example
+git clone git@github.com:jihchi/reason-react-parcel-example.git
+cd reason-react-parcel-example
 yarn
 yarn start
 ```
 
-Then open `http://localhost:1234` and edit `index.js` and press save. Parcel
+Then open `http://localhost:1234` and edit `index.re` and press save. Parcel
 will automagically hot reload you files whenever you make changes.
 
 ## Building for Production
@@ -49,18 +47,18 @@ too.
 Keeping everything in the root directory obviously won't scale past a point.
 Parcel is very flexible about folder structure, but there are a few gotchas.
 
-### Moving JS entry
+### Moving Reason entry
 
-When you do move index.js just make sure to update the `<script>` tag in
+When you do move index.re just make sure to update the `<script>` tag in
 `index.html` so that it points to the correct relative path.
 
-For example, if you want to move `index.js` to `src/index.js`, you would need
+For example, if you want to move `index.re` to `src/index.re`, you would need
 make the following change to `index.html`:
 
 ```
-<   <script src="./index.js"></script>
+<   <script src="./index.re"></script>
 ---
->   <script src="./src/index.js"></script>
+>   <script src="./src/index.re"></script>
 ```
 
 ### Moving `index.html`
