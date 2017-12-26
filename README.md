@@ -1,6 +1,6 @@
 # Reason React Parcel Example
 
-A minimum viable Reason React app with [Parcel Bundler](https://parceljs.org)
+A minimum viable [Reason React](https://reasonml.github.io/reason-react) app with [Parcel Bundler](https://parceljs.org)
 
 **What's inside?**
 
